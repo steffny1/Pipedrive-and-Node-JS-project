@@ -1,0 +1,22 @@
+{
+  "name": "pipedrive-app",
+  "version": "1.0.0",
+  "description": "Node js app with PipeDrive",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pipedrive": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Pipedrive",
+    "ExpressJS"
+  ],
+  "author": "Steffny Marif Bill steffnyb@gmail.com",
+  "license": "ISC"
+}
