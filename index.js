@@ -5,7 +5,7 @@ const lib = require("pipedrive");
 const app = express();
 const port = process.env.PORT || 5000;
 
-lib.Configuration.apiToken = "4aaf3dc71669d84f5198c16d3ad9e7ff7c214ad5";
+lib.Configuration.apiToken = "INSERT API KEY HERE";
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ extended: true }));
